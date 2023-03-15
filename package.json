@@ -1,6 +1,6 @@
 {
   "name": "good-match-challenge",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A program that matches names for a tennis tournament",
   "main": "GoodMatch.js",
   "scripts": {
