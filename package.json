@@ -1,0 +1,26 @@
+{
+  "name": "good-match-challenge",
+  "version": "2.0.0",
+  "description": "A program that matches names for a tennis tournament",
+  "main": "GoodMatch.js",
+  "scripts": {
+    "start-match": "node ./GoodMatch.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeSamuel14/Good-Match-Challenge.git"
+  },
+  "keywords": [
+    "matches"
+  ],
+  "author": "Lee Samuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeeSamuel14/Good-Match-Challenge/issues"
+  },
+  "homepage": "https://github.com/LeeSamuel14/Good-Match-Challenge#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.3"
+  }
+}
