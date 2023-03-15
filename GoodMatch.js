@@ -36,6 +36,10 @@ class GoodMatch {
         try {
             let fileContents = fs_1.default.readFileSync(filename, 'utf8').trim();
             fileContents = this.formatFileContent(fileContents);
+            if (fileContents.trim() === ``) {
+                console.log("CSV file is empty. Please add a CSV file with data");
+                process.exit(1);
+            }
             this.csvFileContents = fileContents.split(`,`);
         }
         catch (e) {

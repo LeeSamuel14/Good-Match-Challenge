@@ -37,6 +37,11 @@ class GoodMatch {
             
             fileContents = this.formatFileContent(fileContents);
 
+            if(fileContents.trim() === ``){
+                console.log("CSV file is empty. Please add a CSV file with data");
+                process.exit(1);
+            }
+
             this.csvFileContents = fileContents.split(`,`);
             
         }
